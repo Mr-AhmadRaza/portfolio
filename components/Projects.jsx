@@ -2,9 +2,11 @@
 
 import { motion } from "framer-motion";
 import { Github, ExternalLink } from "./Icons";
+import { FaHome, FaBook, FaNewspaper, FaBookOpen } from "react-icons/fa";
 
 const projects = [
   {
+    icon: <FaHome className="text-[#eca553]" />,
     title: "Dream Homes",
     description: "A property listing platform with SSR for SEO optimization. Features include property search, filtering, and detailed property pages.",
     image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1920&h=1080&fit=crop",
@@ -12,6 +14,7 @@ const projects = [
     github: "https://github.com/Mr-AhmadRaza",
   },
   {
+    icon: <FaBook className="text-[#15af45]" />,
     title: "INotebook",
     description: "Full-stack MERN note-taking app with CRUD operations. Users can create, read, update, and delete their personal notes.",
     image: "https://images.unsplash.com/photo-1517842645767-c639042777db?w=1920&h=1080&fit=crop",
@@ -19,6 +22,7 @@ const projects = [
     github: "https://github.com/Mr-AhmadRaza",
   },
   {
+    icon: <FaNewspaper className="text-[#cbf60d]" />,
     title: "Newsapp",
     description: "Real-time news app with multi-page React Router navigation. Fetches and displays latest news from NewsAPI.",
     image: "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=1920&h=1080&fit=crop",
@@ -26,6 +30,7 @@ const projects = [
     github: "https://github.com/Mr-AhmadRaza",
   },
   {
+    icon: <FaBookOpen className="text-[#ed3d55]" />,
     title: "Books Corner",
     description: "Book management app using localStorage for data persistence. Final year project with full CRUD functionality.",
     image: "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=1920&h=1080&fit=crop",
@@ -84,8 +89,8 @@ export default function Projects() {
                 <div className="relative">
                   {/* Project Image */}
                   <div className="w-full h-64 mb-4 rounded-lg overflow-hidden bg-gray-800">
-                    <img 
-                      src={project.image} 
+                    <img
+                      src={project.image}
                       alt={project.title}
                       className="w-full h-full object-cover"
                     />
@@ -96,8 +101,9 @@ export default function Projects() {
                     0{index + 1}
                   </span>
 
-                  {/* Project Title */}
-                  <h3 className="text-2xl font-semibold text-white mt-4 mb-3">
+                  {/* Project Title with Icon */}
+                  <h3 className="text-2xl font-semibold text-white mt-4 mb-3 flex items-center gap-2">
+                    {project.icon}
                     {project.title}
                   </h3>
 
