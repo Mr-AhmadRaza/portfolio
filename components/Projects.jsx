@@ -11,7 +11,7 @@ const projects = [
     description: "A property listing platform with SSR for SEO optimization. Features include property search, filtering, and detailed property pages.",
     image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1920&h=1080&fit=crop",
     tech: ["Next.js", "TypeScript", "Tailwind CSS", "Ant Design"],
-    github: "https://github.com/Mr-AhmadRaza",
+    vercel: "https://dream-homes-next-js-project.vercel.app",
   },
   {
     icon: <FaBook className="text-[#15af45]" />,
@@ -126,15 +126,15 @@ export default function Projects() {
 
                   {/* GitHub Button */}
                   <motion.a
-                    href={project.github}
+                    href={project.vercel}
                     target="_blank"
                     rel="noopener noreferrer"
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     className="inline-flex items-center gap-2 text-[#00d4ff] hover:text-white transition-colors"
                   >
-                    <Github size={20} />
-                    <span>View Code</span>
+                    <vercel size={20} />
+                    <span>Live Demo</span>
                     <ExternalLink size={16} />
                   </motion.a>
                 </div>
