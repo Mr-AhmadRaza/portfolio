@@ -35,7 +35,7 @@ const projects = [
     description: "Book management app using localStorage for data persistence. Final year project with full CRUD functionality.",
     image: "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=1920&h=1080&fit=crop",
     tech: ["React.js", "JavaScript", "Bootstrap", "localStorage"],
-    github: "https://github.com/Mr-AhmadRaza",
+    vercel: "https://books-cornor-react-app.vercel.app",
   },
 ];
 
@@ -133,7 +133,7 @@ export default function Projects() {
                     whileTap={{ scale: 0.95 }}
                     className="inline-flex items-center gap-2 text-[#00d4ff] hover:text-white transition-colors"
                   >
-                    <vercel size={20} />
+                    <vercel   size={20} />
                     <span>Live Demo</span>
                     <ExternalLink size={16} />
                   </motion.a>
