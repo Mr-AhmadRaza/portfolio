@@ -13,21 +13,14 @@ const projects = [
     tech: ["Next.js", "TypeScript", "Tailwind CSS", "Ant Design"],
     vercel: "https://dream-homes-next-js-project.vercel.app",
   },
-  {
-    icon: <FaBook className="text-[#15af45]" />,
-    title: "INotebook",
-    description: "Full-stack MERN note-taking app with CRUD operations. Users can create, read, update, and delete their personal notes.",
-    image: "https://images.unsplash.com/photo-1517842645767-c639042777db?w=1920&h=1080&fit=crop",
-    tech: ["React.js", "Node.js", "Express.js", "MongoDB"],
-    github: "https://github.com/Mr-AhmadRaza",
-  },
+
   {
     icon: <FaNewspaper className="text-[#cbf60d]" />,
     title: "Newsapp",
     description: "Real-time news app with multi-page React Router navigation. Fetches and displays latest news from NewsAPI.",
     image: "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=1920&h=1080&fit=crop",
     tech: ["React.js", "JavaScript", "NewsAPI", "React Router"],
-    github: "https://github.com/Mr-AhmadRaza",
+    vercel:"https://news-app-react-project-eight.vercel.app",
   },
   {
     icon: <FaBookOpen className="text-[#ed3d55]" />,
@@ -36,6 +29,14 @@ const projects = [
     image: "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=1920&h=1080&fit=crop",
     tech: ["React.js", "JavaScript", "Bootstrap", "localStorage"],
     vercel: "https://books-cornor-react-app.vercel.app",
+  },
+    {
+    icon: <FaBook className="text-[#15af45]" />,
+    title: "INotebook",
+    description: "Full-stack MERN note-taking app with CRUD operations. Users can create, read, update, and delete their personal notes.",
+    image: "https://images.unsplash.com/photo-1517842645767-c639042777db?w=1920&h=1080&fit=crop",
+    tech: ["React.js", "Node.js", "Express.js", "MongoDB"],
+    github: "https://github.com/Mr-AhmadRaza",
   },
 ];
 
