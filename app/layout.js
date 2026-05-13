@@ -16,13 +16,11 @@ export const metadata = {
   title: "Ahmad Raza | Frontend Developer",
   description: "Frontend Developer specializing in React.js and Next.js. Crafting fast, responsive & beautiful web interfaces.",
   keywords: ["Frontend Developer", "React.js", "Next.js", "Portfolio", "Web Developer"],
-  author: "Ahmad Raza",
-  
-  // ✅ Add this favicon section
-  icons: {
-    icon: "/favicon.svg",           // Default favicon
+  openGraph: {
+    title: "Ahmad Raza | Frontend Developer",
+    description: "Crafting fast, responsive & beautiful web interfaces.",
+    type: "website",
   },
-
 };
 
 export default function RootLayout({ children }) {
