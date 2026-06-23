@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Code, Layers, Palette, Wrench } from "lucide-react";
+import { Code, Layers, Palette, Wrench,Server } from "lucide-react";
 
 const skillCategories = [
   {
@@ -13,7 +13,7 @@ const skillCategories = [
   {
     title: "Backend & Databases",
     icon: Server,
-    skills: ["Node.js", "Express.js","MongoDB","MySl"],
+    skills: ["Node.js", "Express.js","MongoDB","MySQl"],
     color: "from-green-400 to-emerald-500",
   },
   {
