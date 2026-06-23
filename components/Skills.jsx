@@ -6,7 +6,7 @@ import {
   Server,
 } from "lucide-react";
 
-const skillCategories = [
+const Skills = [
   {
     title: "Languages",
     icon: Code,
@@ -38,3 +38,4 @@ const skillCategories = [
     color: "from-teal-400 to-cyan-500",
   },
 ];
+export default Skills;
