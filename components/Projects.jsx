@@ -6,10 +6,10 @@ import { FaHome, FaBook, FaNewspaper, FaBookOpen } from "react-icons/fa";
 
 const projects = [
    {
-    icon: <FaBookOpen className="text-[#ed3d55]" />,
+    icon: <FaBookOpen className="text-[#89ed3d]" />,
     title: "Style-Mart",
     description: "StyleMart is a modern e-commerce platform that offers a seamless online shopping experience with a wide range of fashion and lifestyle products. Built with modern web technologies, it features secure authentication, product management, shopping cart functionality, and a responsive user interface..",
-    image: "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=1920&h=1080&fit=crop",
+    image: "",
     tech: ["Next.js", "TypeScript", "Tailwind CSS", "Node.js","Express.js","MongoDB"],
     vercel: "https://style-mart-tau.vercel.app/",
   },
