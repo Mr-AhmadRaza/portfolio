@@ -6,7 +6,7 @@ import { ArrowDown, Mail } from "lucide-react";
 import { Github, Linkedin } from "./Icons";
 
 const roles = [
-  "Frontend Developer",
+  "Full-Stack Developer",
   "React.js & Next.js Specialist",
   
 ];
