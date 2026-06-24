@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Github, ExternalLink } from "./Icons";
-import { FaHome, FaBook, FaNewspaper, FaBookOpen } from "react-icons/fa";
+import { FaHome, FaBook, FaNewspaper, FaBookOpen ,FaShoppingBag } from "react-icons/fa";
 
 const projects = [
   {
