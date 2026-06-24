@@ -15,7 +15,7 @@ const projects = [
   },
   {
     icon: <FaHome className="text-[#eca553]" />,
-    title: "Dream Homes",
+    title: "Dream-Homes",
     description: `Dream Homes is a modern full-stack property listing platform built with Next.js 16 and TypeScript. Users can browse available properties, create listings with detailed information, and upload multiple property images seamlessly via Cloudinary. Authentication is handled securely using Next Auth, supporting registration and login flows. All property and user data is managed through a MySQL database, accessed efficiently using Prisma ORM for type-safe database queries. The UI is fully responsive, crafted with Tailwind CSS and Ant Design for a clean experience.`,
     image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1920&h=1080&fit=crop",
     tech: ["Next.js", "TypeScript", "Tailwind CSS", "Ant Design", "Prisma ORM", "MySQL", "Next Auth", "Cloudinary"],
@@ -24,9 +24,9 @@ const projects = [
   {
     icon: <FaNewspaper className="text-[#cbf60d]" />,
     title: "Newsapp",
-    description: "Real-time news app with multi-page React Router navigation. Fetches and displays latest news from NewsAPI.",
+    description: `Newsapp is a full-stack real-time news application built with React.js on the frontend and Node.js with Express.js on the backend. It fetches the latest news articles from GNews API across multiple categories like Sports, Business, Health, Science, and Entertainment. Users can navigate between categories using React Router, with smooth pagination to browse through hundreds of news articles seamlessly.`,
     image: "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=1920&h=1080&fit=crop",
-    tech: ["React.js", "JavaScript", "NewsAPI", "React Router"],
+    tech: ["React.js", "JavaScript", "Node.js", "Express.js", "GNews API", "React Router", "Bootstrap"],
     vercel: "https://news-app-react-project-eight.vercel.app",
   },
   {
