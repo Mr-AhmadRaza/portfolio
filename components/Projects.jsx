@@ -2,28 +2,15 @@
 
 import { motion } from "framer-motion";
 import { Github, ExternalLink } from "./Icons";
-import { FaHome, FaBook, FaNewspaper, FaBookOpen ,FaShoppingBag } from "react-icons/fa";
+import { FaHome, FaBook, FaNewspaper, FaBookOpen, FaShoppingBag } from "react-icons/fa";
 
 const projects = [
   {
     icon: <FaShoppingBag className="text-[#eca553]" />,
     title: "Style-Mart",
-    description: `Style Mart is a modern full-stack e-commerce fashion and clothing store 
-built with Next.js and TypeScript on the frontend,Node.js and Express.js backend. Users can browse a wide range of fashion products, add items to their cart or wishlist, and place orders with ease. User authentication is handled securely using JWT tokens and Bcrypt.js 
-for password hashing, while Nodemailer manages email notifications. Product and user data is stored in MongoDB, accessed efficiently through Mongoose ODM(Object Data Modeling). Frontend state is managed seamlessly with Zustand, and API communication is handled via Axios for a smooth and responsive shopping experience..`,
-    image: "",
-    tech: ["Next.js",
-      "TypeScript",
-      "Tailwind CSS",
-      "Zustand",
-      "Axios",
-      "Node.js",
-      "Express.js",
-      "MongoDB",
-      "Mongoose",
-      "JWT",
-      "Bcrypt.js",
-      "Nodemailer",],
+    description: `Style Mart is a modern full-stack e-commerce fashion and clothing store built with Next.js and TypeScript on the frontend, Node.js and Express.js backend. Users can browse a wide range of fashion products, add items to their cart or wishlist, and place orders with ease. User authentication is handled securely using JWT tokens and Bcrypt.js for password hashing, while Nodemailer manages email notifications. Product and user data is stored in MongoDB, accessed efficiently through Mongoose ODM (Object Data Modeling). Frontend state is managed seamlessly with Zustand, and API communication is handled via Axios for a smooth and responsive shopping experience.`,
+    image: "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=1920&h=1080&fit=crop", // ✅ added
+    tech: ["Next.js", "TypeScript", "Tailwind CSS", "Zustand", "Axios", "Node.js", "Express.js", "MongoDB", "Mongoose", "JWT", "Bcrypt.js", "Nodemailer"],
     vercel: "https://style-mart-tau.vercel.app/",
   },
   {
@@ -31,19 +18,9 @@ for password hashing, while Nodemailer manages email notifications. Product and 
     title: "Dream Homes",
     description: `Dream Homes is a modern full-stack property listing platform built with Next.js 16 and TypeScript. Users can browse available properties, create listings with detailed information, and upload multiple property images seamlessly via Cloudinary. Authentication is handled securely using Next Auth, supporting registration and login flows. All property and user data is managed through a MySQL database, accessed efficiently using Prisma ORM for type-safe database queries. The UI is fully responsive, crafted with Tailwind CSS and Ant Design for a clean experience.`,
     image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1920&h=1080&fit=crop",
-    tech: [
-      "Next.js",
-      "TypeScript",
-      "Tailwind CSS",
-      "Ant Design",
-      "Prisma ORM",
-      "MySQL",
-      "Next Auth",
-      "Cloudinary",
-    ],
+    tech: ["Next.js", "TypeScript", "Tailwind CSS", "Ant Design", "Prisma ORM", "MySQL", "Next Auth", "Cloudinary"],
     vercel: "https://dream-homes-next-js-project.vercel.app",
   },
-
   {
     icon: <FaNewspaper className="text-[#cbf60d]" />,
     title: "Newsapp",
@@ -60,8 +37,6 @@ for password hashing, while Nodemailer manages email notifications. Product and 
     tech: ["React.js", "JavaScript", "Bootstrap", "localStorage"],
     vercel: "https://books-cornor-react-app.vercel.app",
   },
-
-
   {
     icon: <FaBook className="text-[#15af45]" />,
     title: "INotebook",
@@ -141,7 +116,7 @@ export default function Projects() {
                   </h3>
 
                   {/* Description */}
-                  <p className="text-gray-400 mb-4 leading-relaxed">
+                  <p className="text-gray-400 mb-4 leading-relaxed text-justify">
                     {project.description}
                   </p>
 
