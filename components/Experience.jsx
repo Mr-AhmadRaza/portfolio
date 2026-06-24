@@ -14,6 +14,7 @@ const experiences = [
       "Built scalable and maintainable frontend architectures with a strong focus on performance optimization and code quality.",
       "Developed reusable and maintainable UI component libraries using Ant Design, improving development speed and UI consistency across projects.",
       "Designed responsive, modern, and pixel-perfect user interfaces using Tailwind CSS and Bootstrap.",
+      "Built scalable backend services and RESTful APIs using Node.js and Express.js, with MongoDB for database management and authentication systems.",
       "Collaborated cross-functionally with team members to ensure UI consistency, uphold code quality standards, and continuously improve overall frontend architecture."
     ],
   },

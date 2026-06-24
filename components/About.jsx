@@ -56,13 +56,14 @@ export default function About() {
               className="space-y-6"
             >
               <h3 className="text-2xl font-semibold text-white">
-                Frontend Developer
+                Full-Stack Developer
               </h3>
 
               <p className="text-gray-400 leading-relaxed text-justify">
-                A passionate Frontend Developer with expertise in building
-                modern, responsive, and user-friendly web applications.I love creating  beautiful interfaces that  provide exceptional
-                user experiences.
+                I am a motivated Junior Full Stack Developer with practical experience in building
+                complete web applications using modern technologies including React.js, Next.js,
+                Node.js, Express.js, MongoDB, and MySQL. I am passionate about learning, growing,
+                and contributing to impactful projects with quality and dedication.
 
               </p>
 
