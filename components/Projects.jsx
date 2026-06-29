@@ -32,9 +32,9 @@ const projects = [
   {
     icon: <FaBookOpen className="text-[#ed3d55]" />,
     title: "Books Corner",
-    description: "Book management app using localStorage for data persistence. Final year project with full CRUD functionality.",
+    description: " A full-stack MERN web application where users can browse books, manage their cart, and place orders seamlessly. Built with React.js and Bootstrap on the frontend for a clean, responsive UI with smooth client-side navigation using React Router. The backend is powered by Node.js and Express.js, exposing REST APIs for books and authentication. Data is stored in MongoDB using Mongoose for structured schema management. User authentication is secured with JWT for session management and Bcrypt.js for password hashing. A complete end-to-end shopping experience with secure login, signup, and checkout flow.",
     image: "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=1920&h=1080&fit=crop",
-    tech: ["React.js", "JavaScript", "Bootstrap", "localStorage"],
+    tech: ["React.js", "JavaScript", "React Router","Bootstrap","Node.js","Express.js","MongoDB","Mongoose","JWT","Bcrypt.js",],
     vercel: "https://books-cornor-react-app.vercel.app",
   },
   {
