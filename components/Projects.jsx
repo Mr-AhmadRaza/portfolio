@@ -22,20 +22,12 @@ const projects = [
     vercel: "https://dream-homes-next-js-project.vercel.app",
   },
   {
-    icon: <FaNewspaper className="text-[#cbf60d]" />,
-    title: "Newsapp",
-    description: `Newsapp is a full-stack real-time news application built with React.js on the frontend and Node.js with Express.js on the backend. It fetches the latest news articles from GNews API across multiple categories like Sports, Business, Health, Science, and Entertainment. Users can navigate between categories using React Router, with smooth pagination to browse through hundreds of news articles seamlessly.`,
-    image: "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=1920&h=1080&fit=crop",
-    tech: ["React.js", "JavaScript", "Node.js", "Express.js", "GNews API", "React Router", "Bootstrap"],
-    vercel: "https://news-app-react-project-eight.vercel.app",
-  },
-  {
     icon: <FaBookOpen className="text-[#ed3d55]" />,
     title: "Books Corner",
     description: " A full-stack MERN web application where users can browse books, manage their cart, and place orders seamlessly. Built with React.js and Bootstrap on the frontend for a clean, responsive UI with smooth client-side navigation using React Router. The backend is powered by Node.js and Express.js, exposing REST APIs for books and authentication. Data is stored in MongoDB using Mongoose for structured schema management. User authentication is secured with JWT for session management and Bcrypt.js for password hashing. A complete end-to-end shopping experience with secure login, signup, and checkout flow.",
     image: "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=1920&h=1080&fit=crop",
     tech: ["React.js", "JavaScript", "React Router","Bootstrap","Node.js","Express.js","MongoDB","Mongoose","JWT","Bcrypt.js",],
-    vercel: "https://books-cornor-react-app.vercel.app",
+    vercel: "https://books-cornor-react-app-beige.vercel.app",
   },
   {
     icon: <FaBook className="text-[#15af45]" />,
@@ -44,6 +36,14 @@ const projects = [
     image: "https://images.unsplash.com/photo-1517842645767-c639042777db?w=1920&h=1080&fit=crop",
     tech: ["React.js", "Node.js", "Express.js", "MongoDB"],
     github: "https://github.com/Mr-AhmadRaza",
+  },
+  {
+    icon: <FaNewspaper className="text-[#cbf60d]" />,
+    title: "Newsapp",
+    description: `Newsapp is a full-stack real-time news application built with React.js on the frontend and Node.js with Express.js on the backend. It fetches the latest news articles from GNews API across multiple categories like Sports, Business, Health, Science, and Entertainment. Users can navigate between categories using React Router, with smooth pagination to browse through hundreds of news articles seamlessly.`,
+    image: "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=1920&h=1080&fit=crop",
+    tech: ["React.js", "JavaScript", "Node.js", "Express.js", "GNews API", "React Router", "Bootstrap"],
+    vercel: "https://news-app-react-project-eight.vercel.app",
   },
 ];
 
