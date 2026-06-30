@@ -29,14 +29,7 @@ const projects = [
     tech: ["React.js", "JavaScript", "React Router","Bootstrap","Node.js","Express.js","MongoDB","Mongoose","JWT","Bcrypt.js",],
     vercel: "https://books-cornor-react-app-beige.vercel.app",
   },
-  {
-    icon: <FaBook className="text-[#15af45]" />,
-    title: "INotebook",
-    description: "Full-stack MERN note-taking app with CRUD operations. Users can create, read, update, and delete their personal notes.",
-    image: "https://images.unsplash.com/photo-1517842645767-c639042777db?w=1920&h=1080&fit=crop",
-    tech: ["React.js", "Node.js", "Express.js", "MongoDB"],
-    github: "https://github.com/Mr-AhmadRaza",
-  },
+
   {
     icon: <FaNewspaper className="text-[#cbf60d]" />,
     title: "Newsapp",
@@ -45,6 +38,7 @@ const projects = [
     tech: ["React.js", "JavaScript", "Node.js", "Express.js", "GNews API", "React Router", "Bootstrap"],
     vercel: "https://news-app-react-project-eight.vercel.app",
   },
+   
 ];
 
 const container = {
